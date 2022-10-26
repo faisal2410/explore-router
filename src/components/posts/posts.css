@@ -1,0 +1,21 @@
+.posts-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+  
+  .post {
+    border: 2px solid red;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    
+  }
+  
+  .post a{
+      color: #fff;
+  }
