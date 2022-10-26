@@ -46,6 +46,7 @@ const App = () => {
     }
       ],
     },
+    {path:"*",element:<div><h1>The route not found:404</h1></div>}
   ]);
   return (
     <div className="App">
