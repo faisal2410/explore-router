@@ -43,10 +43,11 @@ const App = () => {
         return axios.get(`https://jsonplaceholder.typicode.com/posts/${params.params.postId}`)
       },
       element:<PostDetails></PostDetails>
-    }
-      ],
     },
     {path:"*",element:<div><h1>The route not found:404</h1></div>}
+      ],
+    },
+   
   ]);
   return (
     <div className="App">
